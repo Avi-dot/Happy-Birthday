@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Happy Birthday!!! :)</title>
+  <title>Happy 2 Million Queen | Made with Love By ( @abhijeet_xd )</title>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="style/style.css">
@@ -15,16 +15,16 @@
   <div class="container">
     <div class="one">
       <h1 class="one">Hey
-        <span id="name">NAME</span>
+        <span id="name">Neha</span>
       </h1>
       <p class="two" id="greetingText">I really like your name btw!</p>
     </div>
     <div class="three">
-      <p>It's your birthday!!! :D</p>
+      <p>Here's Something for You...Hope you will like it.</p>
     </div>
     <div class="four">
       <div class="text-box">
-        <p class="hbd-chatbox">Happy birthday to you!! Yeee! Many many happy blah...</p>
+        <p class="hbd-chatbox">Happy 2 million fam to the girl who showed perfect example of #OneWomanShow</p>
         <p class="fake-btn">Send</p>
       </div>
     </div>
@@ -46,7 +46,7 @@
       <img src="img/photo.png" alt="" class="main-dp" id="imagePath">
       <img src="img/hat.svg" alt="" class="hat">
       <div class="wish">
-        <h3 class="wish-hbd">Happy Birthday!</h3>
+        <h3 class="wish-hbd">Congratulations-for-2million</h3>
         <h5 id="wishText">May the js.prototypes always be with you! ;)</h5>
       </div>
     </div>
@@ -122,10 +122,26 @@
       <p class="last-smile">:)</p>
     </div>
   </div>
-</body>
+  </body>
 
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script type="text/babel" src="script/main.js"></script>
+<script>
+var message="Sorry Sir";
 
+///////////////////////////////////
+
+function clickIE4(){if (event.button==2){alert(message);return false;}}
+
+function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}}
+
+if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;}
+
+else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;}
+
+document.oncontextmenu=new Function("alert(message);return false")
+</script>
+       
+    <script src="/nosource.js"></script>
 </html>
